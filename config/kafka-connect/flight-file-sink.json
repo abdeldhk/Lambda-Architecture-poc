@@ -1,0 +1,12 @@
+{
+    "name": "flight-file-sink",
+    "config": {
+      "connector.class": "FileStreamSink",
+      "tasks.max": "1",
+      "topics": "flight-events",
+      "file": "/kafka/output/flight_events.json",
+      "value.converter": "org.apache.kafka.connect.json.JsonConverter",
+      "value.converter.schemas.enable": "false"
+    }
+  }
+  
