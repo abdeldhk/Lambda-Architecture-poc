@@ -1,0 +1,46 @@
+# Rust
+/target
+**/Cargo.lock
+
+# Python
+__pycache__/
+*.py[cod]
+*.ipynb_checkpoints
+
+# Spark
+*.log
+spark-warehouse/
+.metastore_db/
+
+# Java (Kafka Streams, Flink)
+*.class
+*.jar
+*.war
+*.ear
+*.iml
+.idea/
+*.log
+
+# VS Code
+.vscode/
+
+# IntelliJ
+.idea/
+*.iml
+
+# Docker
+*.pid
+docker/*.env
+docker/kafka/output/
+
+# Data files
+data/kafka-output/
+data/flights/*.json
+
+# Checkpoint directories
+checkpoints/
+spark-events/
+
+# OS generated
+.DS_Store
+Thumbs.db
